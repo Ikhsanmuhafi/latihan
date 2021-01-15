@@ -7,34 +7,34 @@ export default new Vuex.Store({
   state: {
     users: [
       {
-        nama: '',
-        alamat:'',
-        program:'',
-        diteriama:false
+        nama: 'ikhsan',
+        alamat:'jauh',
+        program:'Frontend',
+        diterima:false
       },
       {
         nama: '',
         alamat:'',
         program:'',
-        diteriama:false
+        diterima:false
       },
       {
         nama: '',
         alamat:'',
         program:'',
-        diteriama:false
+        diterima:false
       },
       {
         nama: '',
         alamat:'',
         program:'',
-        diteriama:false
+        diterima:false
       },
       {
         nama: '',
         alamat:'',
         program:'',
-        diteriama:true
+        diterima:true
       }
     ],
     admin: {

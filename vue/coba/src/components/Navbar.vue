@@ -1,15 +1,15 @@
 <template>
     <nav>
-        <v-navigation-drawer
-        dense
-        v-model="drawer" app>
+        <v-navigation-drawer dense color="grey"
+        v-model="drawer"
+         app>
             <v-list-item>
-            <v-list-item-content>
-                <v-list-item-title>
-                    praxis academy
-                </v-list-item-title>
-                <v-list-item-subtitle>program</v-list-item-subtitle>
-            </v-list-item-content>
+                <v-list-item-content>
+                    <v-list-item-title>
+                        praxis academy
+                    </v-list-item-title>
+                    <v-list-item-subtitle>program</v-list-item-subtitle>
+                </v-list-item-content>
             </v-list-item>
 
             <v-divider></v-divider>
@@ -28,25 +28,21 @@
 
         <v-app-bar app>
             <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
-            <v-btn
-            color="white"
-            link to="/">
+            <v-btn color="white" link to="/">
             <v-icon>mdi-home</v-icon>
             </v-btn>
 
-            <v-btn
-            color="white"
-            link to="/register">
+            <v-btn color="white" link to="/register">
             <v-icon>mdi-account-plus</v-icon>
             </v-btn>
             <v-spacer></v-spacer>
-            <v-btn 
-            color="blue"
+            <v-btn color="light-blue lighten-1"
             dark
-            link to="/login">login</v-btn>
+            link to="/login">Login</v-btn>
         </v-app-bar>
     </nav>
 </template>
+
 
 <script>
   export default {

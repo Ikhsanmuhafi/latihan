@@ -1,9 +1,10 @@
+
 <template>
     <v-app>
         <v-container>
             <v-row class="justify-center">
                 <v-col>
-                    <v-card title elevation="1" class="mt-10">
+                    <v-card title elevation="24" class="mt-10">
                         <v-card-title>
                             <h3>Login admin</h3>
                         </v-card-title>
@@ -20,10 +21,13 @@
                             <v-card-text>
                             <v-text-field color="blue" label="Username" v-model="admin.username"/>
                             <v-text-field color="blue" label="Password" 
-                            :type="showPassword ? 'text' : 'password'" :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'" @click="handleClick" v-model="admin.password"/>
+                            :type="showPassword ? 'text' : 'password'" :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'" @click:append="handleClick" v-model="admin.password"/>
                             </v-card-text>
                             <v-btn
-                            color="blue lighten-1" dark @click="handleSumbit"> Masuk </v-btn>
+                                color="blue"
+                                text
+                                @click="handleSumbit"
+                            > Masuk </v-btn>
                         </v-form>
                     </v-card>
                 </v-col>

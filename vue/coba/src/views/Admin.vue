@@ -46,9 +46,8 @@
             </v-list>
             </v-card-subtitle>
             <v-spacer></v-spacer>
-            <v-btn color="black" dark @click="handleLogout">
+            <v-btn color="error" dark @click="handleLogout">
               <v-icon>mdi-logout</v-icon>
-              logout
             </v-btn>
         </v-card>
     </v-container>
@@ -99,17 +98,17 @@ export default {
           console.log(orang)
        },
         handleLogout(){
-        var yakin = confirm("Apakah kamu yakin ingin keluar");
+        let logout = confirm("Apakah kamu yakin ingin keluar");
 
-        if (yakin) {
-            window.location =('/');
+        if (logout) {
+            window.location =('http://localhost:8080/#/login');
         } else {
             document.write=('http://localhost:8080/#/admin');
         }
        },
 
        hapusUser(userName){
-         this.$store.dispatch('hapus', userName)
+         this.$store.dispatch('hapususer', userName)
        },
 
    }
