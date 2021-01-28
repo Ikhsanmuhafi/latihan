@@ -11,9 +11,9 @@
                 <router-link to="/" class="text-dark">Home</router-link>
               </li>
               <li class="breadcrumb-item">
-                <router-link to="/foods" class="text-dark">Foods</router-link>
+                <router-link to="/foods" class="text-dark">Menu</router-link>
               </li>
-              <li class="breadcrumb-item active" aria-current="page">Food Order</li>
+              <li class="breadcrumb-item active" aria-current="page">Menu Order</li>
             </ol>
           </nav>
         </div>
@@ -42,7 +42,7 @@
               <textarea
                 v-model="pesan.keterangan"
                 class="form-control"
-                placeholder="Keterangan spt : Pedes, Nasi Setengah .."
+                placeholder="Keterangan"
               ></textarea>
             </div>
 

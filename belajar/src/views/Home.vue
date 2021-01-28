@@ -12,11 +12,8 @@
           </h2>
         </div>
         <div class="col">
-          <router-link to="/foods" class="btn badge-warning float-left">
-            Menu Makanan
-          </router-link>
-          <router-link to="/drinks" class="btn badge-warning float-right">
-            Menu Minuman
+          <router-link to="/foods" class="btn badge-warning float-right">
+            <b-icon-eye></b-icon-eye> Lihat Semua
           </router-link>
           <!-- <router-link to="/snake" class="btn badge-warning float-center ml-5">
             Menu Minuman

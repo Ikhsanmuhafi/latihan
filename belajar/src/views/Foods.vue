@@ -4,6 +4,14 @@
     <div class="container">
       <div class="row mt-4"></div>
 
+              <div class="col">
+                <h2>
+                  Daftar
+                  <strong>Makanan</strong>
+                  <br> <strong>Minuman</strong>
+                </h2>
+              </div>
+
       <div class="row mt-3">
         <div class="col">
           <div class="input-group mb-2">
@@ -11,7 +19,7 @@
               v-model="search"
               type="text"
               class="form-control"
-              placeholder="Cari Makanan Kesukaan Anda .."
+              placeholder="Cari Makanan dan Minuman Kesukaan Anda .."
               aria-label="Cari"
               aria-describedby="basic-addon1"
               @keyup="searchFood"
@@ -24,12 +32,6 @@
           </div>
         </div>
       </div>
-              <div class="col">
-                <h2>
-                  Daftar
-                  <strong>Makanan</strong>
-                </h2>
-              </div>
       <div class="row mb-4">
         <div
           class="col-md-4 mt-4"

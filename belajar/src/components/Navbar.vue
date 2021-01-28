@@ -12,10 +12,7 @@
               <router-link class="nav-link" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/foods">Food</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/drinks">Drink</router-link>
+              <router-link class="nav-link" to="/foods">Food&Drink</router-link>
             </li>
           </b-navbar-nav>
 

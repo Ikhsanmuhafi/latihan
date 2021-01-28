@@ -23,7 +23,7 @@
         <div class="col">
           <h2>
             Keranjang
-            <strong>Saya</strong>
+            <strong>Anda</strong>
           </h2>
           <div class="table-responsive mt-3">
             <table class="table">
