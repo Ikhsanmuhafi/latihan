@@ -1,19 +1,209 @@
 {
-  "posts": [
+  "best-products": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "kode": "K-01",
+      "nama": "Sate Ayam",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Nasi Goreng Telor",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 13,
+      "kode": "K-13",
+      "nama": "Jus Alpukat",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "jus-alpukat.jpg"
+    },
+    {
+      "id": 14,
+      "kode": "K-14",
+      "nama": "Wedang Jahe Kopi susu",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "jahe-kopi.jpg"
     }
   ],
-  "comments": [
+  "products": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "kode": "K-01",
+      "nama": "Sate Ayam",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Nasi Goreng Telor",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Nasi Rames",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "nasi-rames.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Mie Ayam Bakso",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "mie-ayam-bakso.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Mie Goreng",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "mie-goreng.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Bakso",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "bakso.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Pangsit 6 pcs",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "pangsit.jpg"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Kentang Goreng",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "kentang-goreng.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Lontong Opor Ayam",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "lontong-opor-ayam.jpg"
+    },
+    {
+      "id": 10,
+      "kode": "k-10",
+      "nama": "Bergedel kentang",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "kentang.jpg"
+    },
+    {
+      "id": 11,
+      "kode": "K-11",
+      "nama": "Semur Jengkol",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "semur-jengkol.jpg"
+    },
+    {
+      "id": 12,
+      "kode": "K-12",
+      "nama": "Pete Balado",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "sayur-pete.jpg"
+    },
+    
+    {
+      "id": 13,
+      "kode": "K-13",
+      "nama": "Jus Alpukat",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "jus-alpukat.jpg"
+    },
+    {
+      "id": 14,
+      "kode": "K-14",
+      "nama": "Wedang Jahe Kopi susu",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "jahe-kopi.jpg"
+    },
+    {
+      "id": 15,
+      "kode": "K-15",
+      "nama": "Thai Tea",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "thai-tea.jpg"
+    },
+    {
+      "id": 16,
+      "kode": "K-16",
+      "nama": "Jus Mangga",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "jus-mangga.jpg"
+    },
+    {
+      "id": 17,
+      "kode": "K-17",
+      "nama": "Orang Tua",
+      "harga": 66000,
+      "is_ready": true,
+      "gambar": "orang-tua.jpg"
+    },
+    {
+      "id": 18,
+      "kode": "K-18",
+      "nama": "Topi Miring",
+      "harga": 72000,
+      "is_ready": true,
+      "gambar": "topi-miring.jpg"
+    },
+    {
+      "id": 19,
+      "kode": "K-19",
+      "nama": "Jack Daniels",
+      "harga": 100000,
+      "is_ready": true,
+      "gambar": "jack.jpg"
+    },
+    {
+      "id": 20,
+      "kode": "K-20",
+      "nama": "Anker Beer",
+      "harga": 49000,
+      "is_ready": true,
+      "gambar": "anker.jpg"
+    },
+    {
+      "id": 21,
+      "kode": "K-21",
+      "nama": "Bintang Beer",
+      "harga": 50000,
+      "is_ready": true,
+      "gambar": "bintang.jpg"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "keranjangs": [],
+  "pesanans": []
 }
