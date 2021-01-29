@@ -1,0 +1,37 @@
+<template>
+  <v-footer padless>
+    <v-col
+      class="text-center"
+      cols="12"
+    >
+      {{ new Date().getFullYear() }} &copy; <strong>Ikhsanmuhafi</strong>
+      <br>
+            <v-btn
+      href="https://github.com/Ikhsanmuhafi"
+      icon
+       size="24px">
+        <v-icon>
+        mdi-github
+        </v-icon>
+      </v-btn>
+      <v-btn 
+      href="https://www.facebook.com/iksanmuhafi/"
+      icon
+      size="24px"
+      >
+        <v-icon>
+          mdi-facebook
+        </v-icon>
+        </v-btn> 
+              <v-btn 
+      href="https://api.whatsapp.com/send?phone=+628111494035&text=njancuk"
+      icon
+      size="24px"
+      >
+        <v-icon>
+          mdi-whatsapp
+        </v-icon>
+        </v-btn> 
+    </v-col>
+  </v-footer>
+</template>
